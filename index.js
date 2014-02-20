@@ -3,10 +3,10 @@
  */
 
 var
-  Emitter   = require('emitter'),
-  events    = require('event'),
-  domify    = require('domify'),
-  classes   = require('classes'),
+  Emitter   = require('component-emitter'),
+  events    = require('component-event'),
+  domify    = require('component-domify'),
+  classes   = require('component-classes'),
   template  = require('./template');
 
 /**
